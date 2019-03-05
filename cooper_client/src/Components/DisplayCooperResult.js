@@ -13,7 +13,7 @@ class DisplayCooperResult extends Component {
       results =
       <div>
         <p>{this.props.age} y/o {this.props.gender} running {this.props.distance} meters.</p>
-        <p>Result: {this.calculate}</p>
+        <p>Result: {this.calculate()}</p>
       </div>
     }
     return (
